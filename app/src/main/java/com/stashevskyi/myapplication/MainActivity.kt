@@ -16,6 +16,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        println("Hello World")
         setContent {
             MyApplicationTheme {
                 // A surface container using the 'background' color from the theme
@@ -24,8 +25,6 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.background
                 ) {
                     Greeting("Android")
-
-                    val apiKey = "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"
 
 
                 }
